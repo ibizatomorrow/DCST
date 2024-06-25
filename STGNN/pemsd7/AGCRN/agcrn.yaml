@@ -1,0 +1,11 @@
+device: cuda:0
+
+num_nodes: 228
+input_dim: 1
+hidden_dim: 64
+output_dim: 1
+horizon: 12
+num_layers: 3
+default_graph: True
+embed_dim: 10
+cheb_k: 2
