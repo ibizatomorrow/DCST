@@ -13,6 +13,7 @@ This is the origin Pytorch implementation of [Make Graph Neural Networks Great A
 
 ## Requirements
 Our code is based on Python version 3.8.19 and PyTorch version 1.10.0. Please make sure you have installed Python and PyTorch correctly. Then you can install all the dependencies with the following command by pip:
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
+
 
 
