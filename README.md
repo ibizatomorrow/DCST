@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Reproducibility
 1. The dataset has already been stored in the data folder. The dataset directory will look like this:
-<pre> ```Data ├── METRLA ├── PEMSBAY ├── PEMSD7 ``` </pre>
+<pre> ```Data ├── METRLA ├── PEMSBAY └── PEMSD7 ``` </pre>
 
 
 2. To get results of DCST on METRLA dataset with GWNet as Teacher model, run:
