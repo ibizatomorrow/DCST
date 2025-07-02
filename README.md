@@ -24,6 +24,7 @@ Data
 ├── METRLA
 ├── PEMSBAY
 └── PEMSD7
+```
 
 
 2. To get results of DCST on METRLA dataset with GWNet as Teacher model, run:
