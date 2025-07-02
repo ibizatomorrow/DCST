@@ -19,16 +19,15 @@ pip install -r requirements.txt
 
 ## Reproducibility
 1. The dataset has already been stored in the data folder. The dataset directory will look like this:
-```python
 <pre> ```Data ├── METRLA ├── PEMSBAY ├── PEMSD7  ``` </pre>
-```
+
 
 2. To get results of DCST on METRLA dataset with GWNet as Teacher model, run:
 ```python
 cd model
 python train.py --T_model GWNet --dataset METRLA --gpu 0 --kd_weight 0.5
 ```
-The model will be automatically trained and tested. The trained model will be saved in folder `saved_models/` and Training logs will be saved in folder `logs/`
+The model will be automatically trained and tested. The trained model will be saved in folder `saved_models/` and Training logs will be saved in folder `logs/`.
 
 We describe parameters in detail:
 | Parameter name | Description of parameter |
