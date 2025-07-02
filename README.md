@@ -9,7 +9,7 @@ This is the origin Pytorch implementation of [Make Graph Neural Networks Great A
 **Figure 2.** Dual Cross-Scale Transformer is composed of an Embedding Layer, a Temporal Transformer, a Spatial Transformer, and a Prediction Layer.
 
 ### 3.Integration of Topology-regularized and Cross-Scale Topology-free Patterns
-**Figure 3.** An illustration of the integration process of topologyregularized/-free patterns. The integration process follows the teacher-student paradigm, where the GNN-based model is taken as the teacher model (topology-regularized patterns), and the Dual Cross-Scale Transformer is taken as the student model (topologyfree patterns). During the process, the GNN-based model has been pre-trained and kept fixed. The integration is conducted by jointly optimizing "Soft Loss" and "Hard Loss".
+**Figure 3.** An illustration of the integration process of topology regularized/-free patterns. The integration process follows the teacher-student paradigm, where the GNN-based model is taken as the **teacher model (topology-regularized patterns)**, and the Dual Cross-Scale Transformer is taken as the **student model (topologyfree patterns)**. During the process, the GNN-based model has been pre-trained and kept fixed. The integration is conducted by jointly optimizing "Soft Loss" and "Hard Loss".
 
 
 
