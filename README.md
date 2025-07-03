@@ -42,7 +42,7 @@ Data
 cd model/
 python train.py --T_model GWNet --dataset METRLA --gpu 0 --kd_weight 0.5
 ```
-The model will be automatically trained and tested. The trained model will be saved in folder `saved_models/` and Training logs will be saved in folder `logs/`.
+The model will be automatically trained and tested. The trained model will be saved in folder `DCST/saved_models/` and Training logs will be saved in folder `DCST/logs/`.
 
 We describe parameters in detail:
 | Parameter name | Description of parameter |
