@@ -49,11 +49,11 @@ We describe parameters in detail:
 |----------------|--------------------------|
 | `T_model`         | Teacher model which capture topology-regularized patterns, choice: `[GWNet, MTGNN, AGCRN, STGCN, DCRNN]`|
 | `dataset`         | The dataset name, choice: `[MTRELA, PEMSBAY, PEMSD7]` |
-| `kd_weight`         | Percentage of topology-free patterns, can be ratio (e.g. 0.3, 0.5, 0.7) |
+| `kd_weight`         | Percentage of topology-free patterns, can be ratio (e.g. 0.1, 0.3, 0.5, 0.7, 0.9) |
 
 ## Citation
 If you find this repository useful in your research, please cite:
-```python
+```text
 @inproceedings{zhou2024make,
   title={Make graph neural networks great again: a generic integration paradigm of topology-free patterns for traffic speed prediction},
   author={Zhou, Yicheng and Wang, Pengfei and Dong, Hao and Zhang, Denghui and Yang, Dingqi and Fu, Yanjie and Wang, Pengyang},
