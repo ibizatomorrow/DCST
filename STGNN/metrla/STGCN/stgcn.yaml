@@ -1,9 +1,0 @@
-graph_pkl_filename: '../STGNN/metrla/STGCN/data/adj_mx.pkl'
-seq_len: 12
-num_nodes: 207
-input_dim: 2
-seq_len: 12  # for the encoder
-output_dim: 1
-horizon: 12
-
-device: cuda:0

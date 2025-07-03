@@ -1,9 +1,0 @@
-graph_pkl_filename: '../STGNN/pemsbay/STGCN/data/adj_mx_bay.pkl'
-seq_len: 12
-num_nodes: 325
-input_dim: 2
-seq_len: 12  # for the encoder
-output_dim: 1
-horizon: 12
-
-device: cuda:0
